@@ -1,3 +1,9 @@
+#human feedback
+#pros - only allows human to approve
+#cons - it does not allow -- how to deal with videos, other stuff
+# - it does not know how if user is away
+
+
 from telethon import TelegramClient, events
 import os
 import asyncio
@@ -8,7 +14,7 @@ import sys
 sys.path.append(r'C:\Users\Admin\Desktop\reciever-rabbitmq')
 from text_extraction.text_extraction1 import extract_text_from_image
 
-# User's Telegram API credentials
+# User's Telegram API credentials # 6364539426
 USER_API_ID = '29704689'
 USER_API_HASH = '1366eac3f7bf9e72446c5215dcb4a5d3'
 
